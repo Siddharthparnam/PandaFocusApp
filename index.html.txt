@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PandaFocus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="panda-container">
+        <img src="panda.png" id="panda" alt="Panda">
+    </div>
+    <div id="stress-ball" draggable="true" ondrag="dragBall(event)">
+        <!-- Stress ball element -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
